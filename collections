@@ -1,0 +1,23 @@
+"""import collections 
+fruits={"apple":300,"gg":200}
+print(fruits["apple"])
+fruits=collections.defaultdict(lambda:"not")
+print(fruits["jhkh"])"""
+"""from collections import defaultdict
+s="dfgdg"
+d=defaultdict(int)
+print(d)
+for k in s:
+    d[k]+=1
+print(list(d.items()))"""
+"""from collections import defaultdict
+d=defaultdict(list)
+for i in range(5):
+    d[input()].append(i+1)
+for i in d:
+    print("".join(map(str,d[i])))"""
+from collections import OrderedDict
+fruits={"AA":300,"gg":200,"BB":73}
+print(OrderedDict(sorted(fruits.items(), key=lambda t:t[0])))
+print(OrderedDict(sorted(fruits.items(), key=lambda t:t[1])))
+print(OrderedDict(sorted(fruits.items(), key=lambda t:len(t[0]))))
