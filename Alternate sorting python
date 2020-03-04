@@ -1,0 +1,20 @@
+def S(a,b):
+    a.sort()
+    i=0
+    j=b-1
+    while(i<j):
+        print(a[j],end=" ")
+        j=j-1
+        print(a[i],end=" ")
+        i=i+1
+    if(b%2!=0):
+        print(a[i])
+c=int(input())
+l=[]
+for k in range(c):
+    d=int(input())
+    l.append(d)
+a=l
+b=len(a)
+print(*a)
+S(a,b)
