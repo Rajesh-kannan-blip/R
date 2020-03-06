@@ -1,0 +1,71 @@
+body { 
+
+    background-image:url("http://shbchurch.co.uk/wp-content/uploads/2016/10/Cricket.jpg");
+    background-size:100% 100%;
+    background-attachment:fixed;
+    background-position:top left;
+    margin:auto 0;
+    }
+    
+    
+    #slogan {
+    
+    margin:auto;
+    position:absolute;
+    top:0; bottom:0; left:0; right:0;
+    height:200px;
+    width:800px;
+    background:rgb(201, 212, 223), 165, 165);
+    color:black;
+    font-family:;
+    font-family: 'Bree Serif', serif;
+    font-size:100px;
+    line-height:100px;
+    padding:5px;
+    text-align:center;
+   
+    border-right-style:none;
+    letter-spacing:10px;
+    }
+    
+    #menu {
+    
+    margin:auto;
+    height:50px;
+    width:800px;
+    font-family:;
+    
+    line-height:50px;
+    text-align:center;
+    }
+    
+    #menu ul { list-style:none; margin:0; padding:0; word-spacing:20px;}
+    #menu ul li {
+    
+    display:inline;
+    font-family: 'Bree Serif', serif;
+    font-size:25px;
+    
+    }
+    
+    #menu ul li:hover { color:#7AB4E1; cursor:pointer;}
+    
+    #top {
+    
+    height:5px;
+    width:100%;
+    background:#7AB4E1;
+    position:fixed;
+    top:0;
+    
+    }
+    
+    #bottom {
+    
+    height:5px;
+    width:100%;
+    background:#7AB4E1;
+    position:fixed;
+    bottom:0;
+    
+    }
