@@ -156,8 +156,8 @@ label {
 }
 
 hr {
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  top: 85px;
+ 
+  
   position: relative;
 }
 
@@ -167,5 +167,15 @@ a {
   top: 120px;
   position: relative;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.2);
+  background-color: #1161ed;
+  color: #FFF;
+  width: 20%;
+  padding: 10px 20px;
+  display: block;
+  height: 39px;
+  margin-top: 30px;
+  transition: all 0.5s ease-in-out;
+
+  text-transform: uppercase;
+  color: rgba(223, 209, 209, 0.925);
 }
